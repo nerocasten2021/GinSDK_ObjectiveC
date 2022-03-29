@@ -14,6 +14,7 @@
 #import "FacebookManager.h"
 #import "AppsflyerManager.h"
 #import "FirebaseManager.h"
+#import "AppleIAP.h"
 
 @interface GinSDK : NSObject
 
@@ -22,6 +23,8 @@
 + (FirebaseManager *) Firebase;
 + (IdAppTracking *) ServerIdTracking;
 + (FacebookManager *) Facebook;
++ (AppleIAP *) AppleIAP;
+
 
 - (void) initSdk:(void(^)(NSString *)) initStatus;
 - (void)showSignInView:(UIViewController *)viewParent andResultDelegate:(id<LoginDelegate>) loginResultDelegate;
