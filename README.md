@@ -58,6 +58,22 @@
 <key>GameSDKSignature</key>
 <string>GameSDKSignature</string>
 ```
+### Configure GoogleSignIn in your project (default info.plist)
+  ** Refer [Get started with Google Sign-In for iOS](https://developers.google.com/identity/sign-in/ios/start-integrating) **
+  ```xml
+   <key>GoogleAppID</key>
+   <string>1234567890-abcdefg.apps.googleusercontent.com</string>
+   <key>CFBundleURLTypes</key>
+   <array>
+    <dict>
+       <key>CFBundleURLSchemes</key>
+       <array>
+          <string>com.googleusercontent.apps.1234567890-abcdefg</string>
+       </array>
+    </dict>
+   </array>
+  ```
+  
 ### Configure FacebookSDK in your project (default info.plist)
 ** Refer [Facebook get started](https://developers.facebook.com/docs/ios/getting-started#step-2---configure-your-project) **
 ```xml
@@ -162,15 +178,9 @@
     NSLog(@"APNs Unable to register for remote notifications: %@", error);
 }
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+  [[GinSDK sharedInstance] application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
     NSLog(@"APNs device token retrieved: %@", deviceToken);
-    NSString *deviceTokenString = [[[[deviceToken description] 
-    stringByReplacingOccurrencesOfString: @"<" withString: @""] 
-    stringByReplacingOccurrencesOfString: @">" withString: @""] 
-    stringByReplacingOccurrencesOfString: @" " withString: @""];
-    //set value for SDK
-    [[GinSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
-    //tracking uninstall
-    [[GinSDK AppsFlyer] trackingUninstallOnAF:deviceToken];
+    [[GinSDK sharedInstance] application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
 }
 - (void)application:(UIApplication *)application 
         didReceiveRemoteNotification:(NSDictionary *) userInfo {
