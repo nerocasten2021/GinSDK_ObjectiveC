@@ -236,7 +236,7 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 ## Initialize SDK delegate
 ```objectivec
 //MainViewController.h
-@interface MainViewController:UIViewController<UIActionSheetDelegate, SKProductsRequestDelegate, LoginDelegate, IAPDelegate> {
+@interface MainViewController:UIViewController<UIActionSheetDelegate, SKProductsRequestDelegate, LoginDelegate, LogoutDelegate, IAPDelegate> {
 }
 ```
 ```objectivec
