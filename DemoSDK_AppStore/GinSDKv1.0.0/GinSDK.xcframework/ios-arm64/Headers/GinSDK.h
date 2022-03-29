@@ -38,4 +38,5 @@
             options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
 - (BOOL)applicationDelegate:(id)appDelegate andApplication:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
 @end

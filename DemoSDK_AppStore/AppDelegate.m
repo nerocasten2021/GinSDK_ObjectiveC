@@ -91,11 +91,7 @@ NSString *const kGCMMessageIDKey = @"gcm.message_id";
 // the FCM registration token.
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     NSLog(@"APNs device token retrieved: %@", deviceToken);
-    NSString *deviceTokenString = [[[[deviceToken description] stringByReplacingOccurrencesOfString: @"<" withString: @""] stringByReplacingOccurrencesOfString: @">" withString: @""] stringByReplacingOccurrencesOfString: @" " withString: @""];
-    //set value for SDK
-//    [[GameSDK sharedInstance] gameInfo].devicetoken = deviceTokenString;
-    //tracking uninstall
-    [[GinSDK AppsFlyer] trackingUninstallOnAF:deviceToken];
+    [[GinSDK sharedInstance] application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
 }
 
 // [START receive_message]
