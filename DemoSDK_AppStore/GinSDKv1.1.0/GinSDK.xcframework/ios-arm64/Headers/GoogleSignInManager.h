@@ -16,6 +16,6 @@
             options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
-- (void) showSignIn:(UIViewController *)viewMain andUserProfileCallback:(void (^)(UserProfileResponse *))userProfileCallback;
+- (void) showSignIn:(UIViewController *)viewMain andGoogleLoginCallback:(void (^)(NSDictionary<NSString *, id> *))googleLoginCallback;
 - (void) signOut;
 @end

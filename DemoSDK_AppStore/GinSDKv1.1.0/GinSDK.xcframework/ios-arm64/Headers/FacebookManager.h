@@ -15,7 +15,7 @@
     
 }
 + (FacebookManager *) sharedInstance;
-- (void) facebookLogin:(UIViewController *)viewMain andUserProfileCallback:(void (^)(UserProfileResponse *))userProfileCallback;
+- (void) facebookLogin:(UIViewController *)viewMain andFacebookLoginCallback:(void (^)(NSDictionary<NSString *, id> *))facebookLoginCallback;
 - (void) signOut;
 //tracking
 - (void) FBTrackingEnable;
