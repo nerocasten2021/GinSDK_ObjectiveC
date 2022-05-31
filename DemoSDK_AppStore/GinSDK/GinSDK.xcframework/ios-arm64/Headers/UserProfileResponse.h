@@ -9,6 +9,7 @@
 @property (nonatomic,strong) NSString *status;
 @property (nonatomic,strong) NSString *userID;
 @property (nonatomic,strong) NSString *username;
+@property (nonatomic,strong) NSString *email;
 @property (nonatomic,strong) NSString *userStatus;
 @property (nonatomic,strong) NSString *userSmsStatus;
 @property (nonatomic,strong) NSString *message;

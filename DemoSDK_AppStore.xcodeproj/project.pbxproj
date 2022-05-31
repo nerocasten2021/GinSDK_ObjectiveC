@@ -21,48 +21,48 @@
 		8A9A52D0212D1C6D0097A25C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9A52CF212D1C6D0097A25C /* MediaPlayer.framework */; };
 		8AB17D99239FCD6D0057AED5 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB17D98239FCD6D0057AED5 /* AuthenticationServices.framework */; };
 		CE2D707B2542CBE400499913 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE2D707A2542CBE400499913 /* GoogleService-Info.plist */; };
+		CEAB1C882845B7EB00FFAFFC /* SDKDataResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEAB1C5E2845B7EA00FFAFFC /* SDKDataResource.bundle */; };
+		CEAB1C892845B7EB00FFAFFC /* GinSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C5F2845B7EA00FFAFFC /* GinSDK.xcframework */; };
+		CEAB1C8A2845B7EB00FFAFFC /* FBSDKShareKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C632845B7EA00FFAFFC /* FBSDKShareKit.xcframework */; };
+		CEAB1C8B2845B7EB00FFAFFC /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C642845B7EB00FFAFFC /* FBSDKCoreKit.xcframework */; };
+		CEAB1C8C2845B7EB00FFAFFC /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C652845B7EB00FFAFFC /* FBSDKLoginKit.xcframework */; };
+		CEAB1C8D2845B7EB00FFAFFC /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C662845B7EB00FFAFFC /* FBAEMKit.xcframework */; };
+		CEAB1C8E2845B7EB00FFAFFC /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C672845B7EB00FFAFFC /* FBSDKCoreKit_Basics.xcframework */; };
+		CEAB1C8F2845B7EB00FFAFFC /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C6B2845B7EB00FFAFFC /* nanopb.xcframework */; };
+		CEAB1C902845B7EB00FFAFFC /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C6C2845B7EB00FFAFFC /* GoogleAppMeasurementIdentitySupport.xcframework */; };
+		CEAB1C912845B7EB00FFAFFC /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C6D2845B7EB00FFAFFC /* PromisesObjC.xcframework */; };
+		CEAB1C922845B7EB00FFAFFC /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C6E2845B7EB00FFAFFC /* FirebaseAnalytics.xcframework */; };
+		CEAB1C932845B7EB00FFAFFC /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C6F2845B7EB00FFAFFC /* FirebaseCoreDiagnostics.xcframework */; };
+		CEAB1C942845B7EB00FFAFFC /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C702845B7EB00FFAFFC /* FirebaseInstallations.xcframework */; };
+		CEAB1C952845B7EB00FFAFFC /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C712845B7EB00FFAFFC /* FirebaseCore.xcframework */; };
+		CEAB1C962845B7EB00FFAFFC /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C722845B7EB00FFAFFC /* GoogleDataTransport.xcframework */; };
+		CEAB1C972845B7EB00FFAFFC /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C732845B7EB00FFAFFC /* GoogleAppMeasurement.xcframework */; };
+		CEAB1C982845B7EB00FFAFFC /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C742845B7EB00FFAFFC /* GoogleUtilities.xcframework */; };
+		CEAB1C992845B7EB00FFAFFC /* FirebaseMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C762845B7EB00FFAFFC /* FirebaseMessaging.xcframework */; };
+		CEAB1C9A2845B7EB00FFAFFC /* AppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C782845B7EB00FFAFFC /* AppAuth.xcframework */; };
+		CEAB1C9B2845B7EB00FFAFFC /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEAB1C7A2845B7EB00FFAFFC /* GoogleSignIn.bundle */; };
+		CEAB1C9C2845B7EB00FFAFFC /* GoogleSignIn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C7B2845B7EB00FFAFFC /* GoogleSignIn.xcframework */; };
+		CEAB1C9D2845B7EB00FFAFFC /* GTMAppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C7C2845B7EB00FFAFFC /* GTMAppAuth.xcframework */; };
+		CEAB1C9E2845B7EB00FFAFFC /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C7D2845B7EB00FFAFFC /* GTMSessionFetcher.xcframework */; };
+		CEAB1C9F2845B7EB00FFAFFC /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C7E2845B7EB00FFAFFC /* AppsFlyerLib.framework */; };
+		CEAB1CA02845B7EB00FFAFFC /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C802845B7EB00FFAFFC /* Protobuf.framework */; };
+		CEAB1CA12845B7EC00FFAFFC /* uv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C812845B7EB00FFAFFC /* uv.framework */; };
+		CEAB1CA22845B7EC00FFAFFC /* GRPCClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C822845B7EB00FFAFFC /* GRPCClient.framework */; };
+		CEAB1CA32845B7EC00FFAFFC /* ProtoRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C832845B7EB00FFAFFC /* ProtoRPC.framework */; };
+		CEAB1CA42845B7EC00FFAFFC /* grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C842845B7EB00FFAFFC /* grpc.framework */; };
+		CEAB1CA52845B7EC00FFAFFC /* openssl_grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C852845B7EB00FFAFFC /* openssl_grpc.framework */; };
+		CEAB1CA62845B7EC00FFAFFC /* absl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C862845B7EB00FFAFFC /* absl.framework */; };
+		CEAB1CA72845B7EC00FFAFFC /* RxLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C872845B7EB00FFAFFC /* RxLibrary.framework */; };
+		CEAB1CA82845B84B00FFAFFC /* Protobuf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C802845B7EB00FFAFFC /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CA92845B84B00FFAFFC /* uv.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C812845B7EB00FFAFFC /* uv.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CAA2845B84B00FFAFFC /* GRPCClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C822845B7EB00FFAFFC /* GRPCClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CAB2845B84B00FFAFFC /* ProtoRPC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C832845B7EB00FFAFFC /* ProtoRPC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CAC2845B84B00FFAFFC /* grpc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C842845B7EB00FFAFFC /* grpc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CAD2845B84B00FFAFFC /* openssl_grpc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C852845B7EB00FFAFFC /* openssl_grpc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CAE2845B84B00FFAFFC /* absl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C862845B7EB00FFAFFC /* absl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAB1CAF2845B84B00FFAFFC /* RxLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB1C872845B7EB00FFAFFC /* RxLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CEE10E4227E0902000129EBC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE10E4127E0902000129EBC /* File.swift */; };
 		CEE10E9D27E0918C00129EBC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE354F525B31CD00008F412 /* Accelerate.framework */; };
-		CEFDFF1B280529FB00FDCEB5 /* SDKDataResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEFDFEF1280529FA00FDCEB5 /* SDKDataResource.bundle */; };
-		CEFDFF1C280529FB00FDCEB5 /* GinSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEF2280529FA00FDCEB5 /* GinSDK.xcframework */; };
-		CEFDFF1D280529FB00FDCEB5 /* FBSDKShareKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEF6280529FA00FDCEB5 /* FBSDKShareKit.xcframework */; };
-		CEFDFF1E280529FB00FDCEB5 /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEF7280529FA00FDCEB5 /* FBSDKCoreKit.xcframework */; };
-		CEFDFF1F280529FB00FDCEB5 /* FBSDKLoginKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEF8280529FB00FDCEB5 /* FBSDKLoginKit.xcframework */; };
-		CEFDFF20280529FB00FDCEB5 /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEF9280529FB00FDCEB5 /* FBAEMKit.xcframework */; };
-		CEFDFF21280529FB00FDCEB5 /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEFA280529FB00FDCEB5 /* FBSDKCoreKit_Basics.xcframework */; };
-		CEFDFF22280529FB00FDCEB5 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEFE280529FB00FDCEB5 /* nanopb.xcframework */; };
-		CEFDFF23280529FB00FDCEB5 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFEFF280529FB00FDCEB5 /* GoogleAppMeasurementIdentitySupport.xcframework */; };
-		CEFDFF24280529FB00FDCEB5 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF00280529FB00FDCEB5 /* PromisesObjC.xcframework */; };
-		CEFDFF25280529FB00FDCEB5 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF01280529FB00FDCEB5 /* FirebaseAnalytics.xcframework */; };
-		CEFDFF26280529FB00FDCEB5 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF02280529FB00FDCEB5 /* FirebaseCoreDiagnostics.xcframework */; };
-		CEFDFF27280529FB00FDCEB5 /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF03280529FB00FDCEB5 /* FirebaseInstallations.xcframework */; };
-		CEFDFF28280529FB00FDCEB5 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF04280529FB00FDCEB5 /* FirebaseCore.xcframework */; };
-		CEFDFF29280529FB00FDCEB5 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF05280529FB00FDCEB5 /* GoogleDataTransport.xcframework */; };
-		CEFDFF2A280529FB00FDCEB5 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF06280529FB00FDCEB5 /* GoogleAppMeasurement.xcframework */; };
-		CEFDFF2B280529FB00FDCEB5 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF07280529FB00FDCEB5 /* GoogleUtilities.xcframework */; };
-		CEFDFF2C280529FB00FDCEB5 /* FirebaseMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF09280529FB00FDCEB5 /* FirebaseMessaging.xcframework */; };
-		CEFDFF2D280529FB00FDCEB5 /* AppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF0B280529FB00FDCEB5 /* AppAuth.xcframework */; };
-		CEFDFF2E280529FB00FDCEB5 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEFDFF0D280529FB00FDCEB5 /* GoogleSignIn.bundle */; };
-		CEFDFF2F280529FB00FDCEB5 /* GoogleSignIn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF0E280529FB00FDCEB5 /* GoogleSignIn.xcframework */; };
-		CEFDFF30280529FB00FDCEB5 /* GTMAppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF0F280529FB00FDCEB5 /* GTMAppAuth.xcframework */; };
-		CEFDFF31280529FB00FDCEB5 /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF10280529FB00FDCEB5 /* GTMSessionFetcher.xcframework */; };
-		CEFDFF32280529FB00FDCEB5 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF11280529FB00FDCEB5 /* AppsFlyerLib.framework */; };
-		CEFDFF33280529FB00FDCEB5 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF13280529FB00FDCEB5 /* Protobuf.framework */; };
-		CEFDFF34280529FB00FDCEB5 /* uv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF14280529FB00FDCEB5 /* uv.framework */; };
-		CEFDFF35280529FB00FDCEB5 /* GRPCClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF15280529FB00FDCEB5 /* GRPCClient.framework */; };
-		CEFDFF36280529FB00FDCEB5 /* ProtoRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF16280529FB00FDCEB5 /* ProtoRPC.framework */; };
-		CEFDFF37280529FB00FDCEB5 /* grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF17280529FB00FDCEB5 /* grpc.framework */; };
-		CEFDFF38280529FB00FDCEB5 /* openssl_grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF18280529FB00FDCEB5 /* openssl_grpc.framework */; };
-		CEFDFF39280529FB00FDCEB5 /* absl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF19280529FB00FDCEB5 /* absl.framework */; };
-		CEFDFF3A280529FB00FDCEB5 /* RxLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF1A280529FB00FDCEB5 /* RxLibrary.framework */; };
-		CEFDFF3B28052A1700FDCEB5 /* Protobuf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF13280529FB00FDCEB5 /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF3C28052A1700FDCEB5 /* uv.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF14280529FB00FDCEB5 /* uv.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF3D28052A1700FDCEB5 /* GRPCClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF15280529FB00FDCEB5 /* GRPCClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF3E28052A1700FDCEB5 /* ProtoRPC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF16280529FB00FDCEB5 /* ProtoRPC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF3F28052A1700FDCEB5 /* grpc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF17280529FB00FDCEB5 /* grpc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF4028052A1700FDCEB5 /* openssl_grpc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF18280529FB00FDCEB5 /* openssl_grpc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF4128052A1700FDCEB5 /* absl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF19280529FB00FDCEB5 /* absl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CEFDFF4228052A1700FDCEB5 /* RxLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDFF1A280529FB00FDCEB5 /* RxLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,14 +72,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CEFDFF3B28052A1700FDCEB5 /* Protobuf.framework in Embed Frameworks */,
-				CEFDFF3C28052A1700FDCEB5 /* uv.framework in Embed Frameworks */,
-				CEFDFF3D28052A1700FDCEB5 /* GRPCClient.framework in Embed Frameworks */,
-				CEFDFF3E28052A1700FDCEB5 /* ProtoRPC.framework in Embed Frameworks */,
-				CEFDFF3F28052A1700FDCEB5 /* grpc.framework in Embed Frameworks */,
-				CEFDFF4028052A1700FDCEB5 /* openssl_grpc.framework in Embed Frameworks */,
-				CEFDFF4128052A1700FDCEB5 /* absl.framework in Embed Frameworks */,
-				CEFDFF4228052A1700FDCEB5 /* RxLibrary.framework in Embed Frameworks */,
+				CEAB1CA82845B84B00FFAFFC /* Protobuf.framework in Embed Frameworks */,
+				CEAB1CA92845B84B00FFAFFC /* uv.framework in Embed Frameworks */,
+				CEAB1CAA2845B84B00FFAFFC /* GRPCClient.framework in Embed Frameworks */,
+				CEAB1CAB2845B84B00FFAFFC /* ProtoRPC.framework in Embed Frameworks */,
+				CEAB1CAC2845B84B00FFAFFC /* grpc.framework in Embed Frameworks */,
+				CEAB1CAD2845B84B00FFAFFC /* openssl_grpc.framework in Embed Frameworks */,
+				CEAB1CAE2845B84B00FFAFFC /* absl.framework in Embed Frameworks */,
+				CEAB1CAF2845B84B00FFAFFC /* RxLibrary.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,44 +106,44 @@
 		8A9A52CF212D1C6D0097A25C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8AB17D98239FCD6D0057AED5 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		CE2D707A2542CBE400499913 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEAB1C5E2845B7EA00FFAFFC /* SDKDataResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKDataResource.bundle; sourceTree = "<group>"; };
+		CEAB1C5F2845B7EA00FFAFFC /* GinSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GinSDK.xcframework; sourceTree = "<group>"; };
+		CEAB1C632845B7EA00FFAFFC /* FBSDKShareKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKShareKit.xcframework; sourceTree = "<group>"; };
+		CEAB1C642845B7EB00FFAFFC /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
+		CEAB1C652845B7EB00FFAFFC /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
+		CEAB1C662845B7EB00FFAFFC /* FBAEMKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAEMKit.xcframework; sourceTree = "<group>"; };
+		CEAB1C672845B7EB00FFAFFC /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
+		CEAB1C692845B7EB00FFAFFC /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		CEAB1C6B2845B7EB00FFAFFC /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		CEAB1C6C2845B7EB00FFAFFC /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		CEAB1C6D2845B7EB00FFAFFC /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		CEAB1C6E2845B7EB00FFAFFC /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		CEAB1C6F2845B7EB00FFAFFC /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
+		CEAB1C702845B7EB00FFAFFC /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		CEAB1C712845B7EB00FFAFFC /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
+		CEAB1C722845B7EB00FFAFFC /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		CEAB1C732845B7EB00FFAFFC /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		CEAB1C742845B7EB00FFAFFC /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		CEAB1C762845B7EB00FFAFFC /* FirebaseMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseMessaging.xcframework; sourceTree = "<group>"; };
+		CEAB1C782845B7EB00FFAFFC /* AppAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppAuth.xcframework; sourceTree = "<group>"; };
+		CEAB1C7A2845B7EB00FFAFFC /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		CEAB1C7B2845B7EB00FFAFFC /* GoogleSignIn.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleSignIn.xcframework; sourceTree = "<group>"; };
+		CEAB1C7C2845B7EB00FFAFFC /* GTMAppAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMAppAuth.xcframework; sourceTree = "<group>"; };
+		CEAB1C7D2845B7EB00FFAFFC /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		CEAB1C7E2845B7EB00FFAFFC /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		CEAB1C802845B7EB00FFAFFC /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		CEAB1C812845B7EB00FFAFFC /* uv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = uv.framework; sourceTree = "<group>"; };
+		CEAB1C822845B7EB00FFAFFC /* GRPCClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GRPCClient.framework; sourceTree = "<group>"; };
+		CEAB1C832845B7EB00FFAFFC /* ProtoRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ProtoRPC.framework; sourceTree = "<group>"; };
+		CEAB1C842845B7EB00FFAFFC /* grpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = grpc.framework; sourceTree = "<group>"; };
+		CEAB1C852845B7EB00FFAFFC /* openssl_grpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl_grpc.framework; sourceTree = "<group>"; };
+		CEAB1C862845B7EB00FFAFFC /* absl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = absl.framework; sourceTree = "<group>"; };
+		CEAB1C872845B7EB00FFAFFC /* RxLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxLibrary.framework; sourceTree = "<group>"; };
 		CEDE6F1726A85C7F00075816 /* libGosuSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGosuSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE10E4027E0901F00129EBC /* DemoSDK_AppStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSDK_AppStore-Bridging-Header.h"; sourceTree = "<group>"; };
 		CEE10E4127E0902000129EBC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CEE354F525B31CD00008F412 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		CEF7BEBB25553C1200E22F64 /* TienKiemMobileDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TienKiemMobileDebug.entitlements; sourceTree = "<group>"; };
-		CEFDFEF1280529FA00FDCEB5 /* SDKDataResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKDataResource.bundle; sourceTree = "<group>"; };
-		CEFDFEF2280529FA00FDCEB5 /* GinSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GinSDK.xcframework; sourceTree = "<group>"; };
-		CEFDFEF6280529FA00FDCEB5 /* FBSDKShareKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKShareKit.xcframework; sourceTree = "<group>"; };
-		CEFDFEF7280529FA00FDCEB5 /* FBSDKCoreKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit.xcframework; sourceTree = "<group>"; };
-		CEFDFEF8280529FB00FDCEB5 /* FBSDKLoginKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKLoginKit.xcframework; sourceTree = "<group>"; };
-		CEFDFEF9280529FB00FDCEB5 /* FBAEMKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAEMKit.xcframework; sourceTree = "<group>"; };
-		CEFDFEFA280529FB00FDCEB5 /* FBSDKCoreKit_Basics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBSDKCoreKit_Basics.xcframework; sourceTree = "<group>"; };
-		CEFDFEFC280529FB00FDCEB5 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		CEFDFEFE280529FB00FDCEB5 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
-		CEFDFEFF280529FB00FDCEB5 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
-		CEFDFF00280529FB00FDCEB5 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
-		CEFDFF01280529FB00FDCEB5 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
-		CEFDFF02280529FB00FDCEB5 /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
-		CEFDFF03280529FB00FDCEB5 /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInstallations.xcframework; sourceTree = "<group>"; };
-		CEFDFF04280529FB00FDCEB5 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
-		CEFDFF05280529FB00FDCEB5 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
-		CEFDFF06280529FB00FDCEB5 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
-		CEFDFF07280529FB00FDCEB5 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
-		CEFDFF09280529FB00FDCEB5 /* FirebaseMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseMessaging.xcframework; sourceTree = "<group>"; };
-		CEFDFF0B280529FB00FDCEB5 /* AppAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppAuth.xcframework; sourceTree = "<group>"; };
-		CEFDFF0D280529FB00FDCEB5 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
-		CEFDFF0E280529FB00FDCEB5 /* GoogleSignIn.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleSignIn.xcframework; sourceTree = "<group>"; };
-		CEFDFF0F280529FB00FDCEB5 /* GTMAppAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMAppAuth.xcframework; sourceTree = "<group>"; };
-		CEFDFF10280529FB00FDCEB5 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
-		CEFDFF11280529FB00FDCEB5 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
-		CEFDFF13280529FB00FDCEB5 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
-		CEFDFF14280529FB00FDCEB5 /* uv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = uv.framework; sourceTree = "<group>"; };
-		CEFDFF15280529FB00FDCEB5 /* GRPCClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GRPCClient.framework; sourceTree = "<group>"; };
-		CEFDFF16280529FB00FDCEB5 /* ProtoRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ProtoRPC.framework; sourceTree = "<group>"; };
-		CEFDFF17280529FB00FDCEB5 /* grpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = grpc.framework; sourceTree = "<group>"; };
-		CEFDFF18280529FB00FDCEB5 /* openssl_grpc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl_grpc.framework; sourceTree = "<group>"; };
-		CEFDFF19280529FB00FDCEB5 /* absl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = absl.framework; sourceTree = "<group>"; };
-		CEFDFF1A280529FB00FDCEB5 /* RxLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxLibrary.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,41 +151,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFDFF26280529FB00FDCEB5 /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
-				CEFDFF33280529FB00FDCEB5 /* Protobuf.framework in Frameworks */,
-				CEFDFF2C280529FB00FDCEB5 /* FirebaseMessaging.xcframework in Frameworks */,
-				CEFDFF31280529FB00FDCEB5 /* GTMSessionFetcher.xcframework in Frameworks */,
-				CEFDFF1E280529FB00FDCEB5 /* FBSDKCoreKit.xcframework in Frameworks */,
-				CEFDFF38280529FB00FDCEB5 /* openssl_grpc.framework in Frameworks */,
-				CEFDFF2F280529FB00FDCEB5 /* GoogleSignIn.xcframework in Frameworks */,
-				CEFDFF21280529FB00FDCEB5 /* FBSDKCoreKit_Basics.xcframework in Frameworks */,
-				CEFDFF36280529FB00FDCEB5 /* ProtoRPC.framework in Frameworks */,
+				CEAB1C932845B7EB00FFAFFC /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
+				CEAB1CA02845B7EB00FFAFFC /* Protobuf.framework in Frameworks */,
+				CEAB1C992845B7EB00FFAFFC /* FirebaseMessaging.xcframework in Frameworks */,
+				CEAB1C9E2845B7EB00FFAFFC /* GTMSessionFetcher.xcframework in Frameworks */,
+				CEAB1C8B2845B7EB00FFAFFC /* FBSDKCoreKit.xcframework in Frameworks */,
+				CEAB1CA52845B7EC00FFAFFC /* openssl_grpc.framework in Frameworks */,
+				CEAB1C9C2845B7EB00FFAFFC /* GoogleSignIn.xcframework in Frameworks */,
+				CEAB1C8E2845B7EB00FFAFFC /* FBSDKCoreKit_Basics.xcframework in Frameworks */,
+				CEAB1CA32845B7EC00FFAFFC /* ProtoRPC.framework in Frameworks */,
 				CEE10E9D27E0918C00129EBC /* Accelerate.framework in Frameworks */,
-				CEFDFF3A280529FB00FDCEB5 /* RxLibrary.framework in Frameworks */,
-				CEFDFF32280529FB00FDCEB5 /* AppsFlyerLib.framework in Frameworks */,
-				CEFDFF34280529FB00FDCEB5 /* uv.framework in Frameworks */,
-				CEFDFF1C280529FB00FDCEB5 /* GinSDK.xcframework in Frameworks */,
-				CEFDFF22280529FB00FDCEB5 /* nanopb.xcframework in Frameworks */,
+				CEAB1CA72845B7EC00FFAFFC /* RxLibrary.framework in Frameworks */,
+				CEAB1C9F2845B7EB00FFAFFC /* AppsFlyerLib.framework in Frameworks */,
+				CEAB1CA12845B7EC00FFAFFC /* uv.framework in Frameworks */,
+				CEAB1C892845B7EB00FFAFFC /* GinSDK.xcframework in Frameworks */,
+				CEAB1C8F2845B7EB00FFAFFC /* nanopb.xcframework in Frameworks */,
 				8AB17D99239FCD6D0057AED5 /* AuthenticationServices.framework in Frameworks */,
-				CEFDFF2A280529FB00FDCEB5 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				CEAB1C972845B7EB00FFAFFC /* GoogleAppMeasurement.xcframework in Frameworks */,
 				8A9A52D0212D1C6D0097A25C /* MediaPlayer.framework in Frameworks */,
-				CEFDFF27280529FB00FDCEB5 /* FirebaseInstallations.xcframework in Frameworks */,
-				CEFDFF37280529FB00FDCEB5 /* grpc.framework in Frameworks */,
-				CEFDFF28280529FB00FDCEB5 /* FirebaseCore.xcframework in Frameworks */,
-				CEFDFF29280529FB00FDCEB5 /* GoogleDataTransport.xcframework in Frameworks */,
-				CEFDFF20280529FB00FDCEB5 /* FBAEMKit.xcframework in Frameworks */,
-				CEFDFF35280529FB00FDCEB5 /* GRPCClient.framework in Frameworks */,
+				CEAB1C942845B7EB00FFAFFC /* FirebaseInstallations.xcframework in Frameworks */,
+				CEAB1CA42845B7EC00FFAFFC /* grpc.framework in Frameworks */,
+				CEAB1C952845B7EB00FFAFFC /* FirebaseCore.xcframework in Frameworks */,
+				CEAB1C962845B7EB00FFAFFC /* GoogleDataTransport.xcframework in Frameworks */,
+				CEAB1C8D2845B7EB00FFAFFC /* FBAEMKit.xcframework in Frameworks */,
+				CEAB1CA22845B7EC00FFAFFC /* GRPCClient.framework in Frameworks */,
 				8A83352A21006DDA007200B0 /* MobileCoreServices.framework in Frameworks */,
-				CEFDFF24280529FB00FDCEB5 /* PromisesObjC.xcframework in Frameworks */,
-				CEFDFF2B280529FB00FDCEB5 /* GoogleUtilities.xcframework in Frameworks */,
-				CEFDFF23280529FB00FDCEB5 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
-				CEFDFF1D280529FB00FDCEB5 /* FBSDKShareKit.xcframework in Frameworks */,
-				CEFDFF30280529FB00FDCEB5 /* GTMAppAuth.xcframework in Frameworks */,
-				CEFDFF1F280529FB00FDCEB5 /* FBSDKLoginKit.xcframework in Frameworks */,
-				CEFDFF25280529FB00FDCEB5 /* FirebaseAnalytics.xcframework in Frameworks */,
-				CEFDFF2D280529FB00FDCEB5 /* AppAuth.xcframework in Frameworks */,
+				CEAB1C912845B7EB00FFAFFC /* PromisesObjC.xcframework in Frameworks */,
+				CEAB1C982845B7EB00FFAFFC /* GoogleUtilities.xcframework in Frameworks */,
+				CEAB1C902845B7EB00FFAFFC /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
+				CEAB1C8A2845B7EB00FFAFFC /* FBSDKShareKit.xcframework in Frameworks */,
+				CEAB1C9D2845B7EB00FFAFFC /* GTMAppAuth.xcframework in Frameworks */,
+				CEAB1C8C2845B7EB00FFAFFC /* FBSDKLoginKit.xcframework in Frameworks */,
+				CEAB1C922845B7EB00FFAFFC /* FirebaseAnalytics.xcframework in Frameworks */,
+				CEAB1C9A2845B7EB00FFAFFC /* AppAuth.xcframework in Frameworks */,
 				8A83352821006DD4007200B0 /* SystemConfiguration.framework in Frameworks */,
-				CEFDFF39280529FB00FDCEB5 /* absl.framework in Frameworks */,
+				CEAB1CA62845B7EC00FFAFFC /* absl.framework in Frameworks */,
 				8A83352621006DCC007200B0 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +215,7 @@
 			children = (
 				CEF7BEBB25553C1200E22F64 /* TienKiemMobileDebug.entitlements */,
 				8A97A1BF233F03C20025F418 /* DemoSDK_AppStore.entitlements */,
-				CEFDFEF0280529FA00FDCEB5 /* GinSDKv1.1.0 */,
+				CEAB1C5D2845B7EA00FFAFFC /* GinSDK */,
 				8A8334DB21006C00007200B0 /* AppDelegate.h */,
 				CEE10E4127E0902000129EBC /* File.swift */,
 				8A8334DC21006C00007200B0 /* AppDelegate.m */,
@@ -288,114 +288,114 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEFDFEF0280529FA00FDCEB5 /* GinSDKv1.1.0 */ = {
+		CEAB1C5D2845B7EA00FFAFFC /* GinSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFEF1280529FA00FDCEB5 /* SDKDataResource.bundle */,
-				CEFDFEF2280529FA00FDCEB5 /* GinSDK.xcframework */,
-				CEFDFEF3280529FA00FDCEB5 /* third-party */,
+				CEAB1C5E2845B7EA00FFAFFC /* SDKDataResource.bundle */,
+				CEAB1C5F2845B7EA00FFAFFC /* GinSDK.xcframework */,
+				CEAB1C602845B7EA00FFAFFC /* third-party */,
 			);
-			path = GinSDKv1.1.0;
+			path = GinSDK;
 			sourceTree = "<group>";
 		};
-		CEFDFEF3280529FA00FDCEB5 /* third-party */ = {
+		CEAB1C602845B7EA00FFAFFC /* third-party */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFEF4280529FA00FDCEB5 /* social-framework */,
-				CEFDFF12280529FB00FDCEB5 /* grpc-frameworks */,
+				CEAB1C612845B7EA00FFAFFC /* social-framework */,
+				CEAB1C7F2845B7EB00FFAFFC /* grpc-frameworks */,
 			);
 			path = "third-party";
 			sourceTree = "<group>";
 		};
-		CEFDFEF4280529FA00FDCEB5 /* social-framework */ = {
+		CEAB1C612845B7EA00FFAFFC /* social-framework */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFEF5280529FA00FDCEB5 /* FacebookSDKV13.1.0 */,
-				CEFDFEFB280529FB00FDCEB5 /* Firebase */,
-				CEFDFF11280529FB00FDCEB5 /* AppsFlyerLib.framework */,
+				CEAB1C622845B7EA00FFAFFC /* FacebookSDKV13.1.0 */,
+				CEAB1C682845B7EB00FFAFFC /* Firebase */,
+				CEAB1C7E2845B7EB00FFAFFC /* AppsFlyerLib.framework */,
 			);
 			path = "social-framework";
 			sourceTree = "<group>";
 		};
-		CEFDFEF5280529FA00FDCEB5 /* FacebookSDKV13.1.0 */ = {
+		CEAB1C622845B7EA00FFAFFC /* FacebookSDKV13.1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFEF6280529FA00FDCEB5 /* FBSDKShareKit.xcframework */,
-				CEFDFEF7280529FA00FDCEB5 /* FBSDKCoreKit.xcframework */,
-				CEFDFEF8280529FB00FDCEB5 /* FBSDKLoginKit.xcframework */,
-				CEFDFEF9280529FB00FDCEB5 /* FBAEMKit.xcframework */,
-				CEFDFEFA280529FB00FDCEB5 /* FBSDKCoreKit_Basics.xcframework */,
+				CEAB1C632845B7EA00FFAFFC /* FBSDKShareKit.xcframework */,
+				CEAB1C642845B7EB00FFAFFC /* FBSDKCoreKit.xcframework */,
+				CEAB1C652845B7EB00FFAFFC /* FBSDKLoginKit.xcframework */,
+				CEAB1C662845B7EB00FFAFFC /* FBAEMKit.xcframework */,
+				CEAB1C672845B7EB00FFAFFC /* FBSDKCoreKit_Basics.xcframework */,
 			);
 			path = FacebookSDKV13.1.0;
 			sourceTree = "<group>";
 		};
-		CEFDFEFB280529FB00FDCEB5 /* Firebase */ = {
+		CEAB1C682845B7EB00FFAFFC /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFEFC280529FB00FDCEB5 /* Firebase.h */,
-				CEFDFEFD280529FB00FDCEB5 /* FirebaseAnalytics */,
-				CEFDFF08280529FB00FDCEB5 /* FirebaseMessaging */,
-				CEFDFF0A280529FB00FDCEB5 /* GoogleSignIn */,
+				CEAB1C692845B7EB00FFAFFC /* Firebase.h */,
+				CEAB1C6A2845B7EB00FFAFFC /* FirebaseAnalytics */,
+				CEAB1C752845B7EB00FFAFFC /* FirebaseMessaging */,
+				CEAB1C772845B7EB00FFAFFC /* GoogleSignIn */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
 		};
-		CEFDFEFD280529FB00FDCEB5 /* FirebaseAnalytics */ = {
+		CEAB1C6A2845B7EB00FFAFFC /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFEFE280529FB00FDCEB5 /* nanopb.xcframework */,
-				CEFDFEFF280529FB00FDCEB5 /* GoogleAppMeasurementIdentitySupport.xcframework */,
-				CEFDFF00280529FB00FDCEB5 /* PromisesObjC.xcframework */,
-				CEFDFF01280529FB00FDCEB5 /* FirebaseAnalytics.xcframework */,
-				CEFDFF02280529FB00FDCEB5 /* FirebaseCoreDiagnostics.xcframework */,
-				CEFDFF03280529FB00FDCEB5 /* FirebaseInstallations.xcframework */,
-				CEFDFF04280529FB00FDCEB5 /* FirebaseCore.xcframework */,
-				CEFDFF05280529FB00FDCEB5 /* GoogleDataTransport.xcframework */,
-				CEFDFF06280529FB00FDCEB5 /* GoogleAppMeasurement.xcframework */,
-				CEFDFF07280529FB00FDCEB5 /* GoogleUtilities.xcframework */,
+				CEAB1C6B2845B7EB00FFAFFC /* nanopb.xcframework */,
+				CEAB1C6C2845B7EB00FFAFFC /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				CEAB1C6D2845B7EB00FFAFFC /* PromisesObjC.xcframework */,
+				CEAB1C6E2845B7EB00FFAFFC /* FirebaseAnalytics.xcframework */,
+				CEAB1C6F2845B7EB00FFAFFC /* FirebaseCoreDiagnostics.xcframework */,
+				CEAB1C702845B7EB00FFAFFC /* FirebaseInstallations.xcframework */,
+				CEAB1C712845B7EB00FFAFFC /* FirebaseCore.xcframework */,
+				CEAB1C722845B7EB00FFAFFC /* GoogleDataTransport.xcframework */,
+				CEAB1C732845B7EB00FFAFFC /* GoogleAppMeasurement.xcframework */,
+				CEAB1C742845B7EB00FFAFFC /* GoogleUtilities.xcframework */,
 			);
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		CEFDFF08280529FB00FDCEB5 /* FirebaseMessaging */ = {
+		CEAB1C752845B7EB00FFAFFC /* FirebaseMessaging */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFF09280529FB00FDCEB5 /* FirebaseMessaging.xcframework */,
+				CEAB1C762845B7EB00FFAFFC /* FirebaseMessaging.xcframework */,
 			);
 			path = FirebaseMessaging;
 			sourceTree = "<group>";
 		};
-		CEFDFF0A280529FB00FDCEB5 /* GoogleSignIn */ = {
+		CEAB1C772845B7EB00FFAFFC /* GoogleSignIn */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFF0B280529FB00FDCEB5 /* AppAuth.xcframework */,
-				CEFDFF0C280529FB00FDCEB5 /* Resources */,
-				CEFDFF0E280529FB00FDCEB5 /* GoogleSignIn.xcframework */,
-				CEFDFF0F280529FB00FDCEB5 /* GTMAppAuth.xcframework */,
-				CEFDFF10280529FB00FDCEB5 /* GTMSessionFetcher.xcframework */,
+				CEAB1C782845B7EB00FFAFFC /* AppAuth.xcframework */,
+				CEAB1C792845B7EB00FFAFFC /* Resources */,
+				CEAB1C7B2845B7EB00FFAFFC /* GoogleSignIn.xcframework */,
+				CEAB1C7C2845B7EB00FFAFFC /* GTMAppAuth.xcframework */,
+				CEAB1C7D2845B7EB00FFAFFC /* GTMSessionFetcher.xcframework */,
 			);
 			path = GoogleSignIn;
 			sourceTree = "<group>";
 		};
-		CEFDFF0C280529FB00FDCEB5 /* Resources */ = {
+		CEAB1C792845B7EB00FFAFFC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFF0D280529FB00FDCEB5 /* GoogleSignIn.bundle */,
+				CEAB1C7A2845B7EB00FFAFFC /* GoogleSignIn.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CEFDFF12280529FB00FDCEB5 /* grpc-frameworks */ = {
+		CEAB1C7F2845B7EB00FFAFFC /* grpc-frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDFF13280529FB00FDCEB5 /* Protobuf.framework */,
-				CEFDFF14280529FB00FDCEB5 /* uv.framework */,
-				CEFDFF15280529FB00FDCEB5 /* GRPCClient.framework */,
-				CEFDFF16280529FB00FDCEB5 /* ProtoRPC.framework */,
-				CEFDFF17280529FB00FDCEB5 /* grpc.framework */,
-				CEFDFF18280529FB00FDCEB5 /* openssl_grpc.framework */,
-				CEFDFF19280529FB00FDCEB5 /* absl.framework */,
-				CEFDFF1A280529FB00FDCEB5 /* RxLibrary.framework */,
+				CEAB1C802845B7EB00FFAFFC /* Protobuf.framework */,
+				CEAB1C812845B7EB00FFAFFC /* uv.framework */,
+				CEAB1C822845B7EB00FFAFFC /* GRPCClient.framework */,
+				CEAB1C832845B7EB00FFAFFC /* ProtoRPC.framework */,
+				CEAB1C842845B7EB00FFAFFC /* grpc.framework */,
+				CEAB1C852845B7EB00FFAFFC /* openssl_grpc.framework */,
+				CEAB1C862845B7EB00FFAFFC /* absl.framework */,
+				CEAB1C872845B7EB00FFAFFC /* RxLibrary.framework */,
 			);
 			path = "grpc-frameworks";
 			sourceTree = "<group>";
@@ -458,12 +458,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFDFF2E280529FB00FDCEB5 /* GoogleSignIn.bundle in Resources */,
+				CEAB1C9B2845B7EB00FFAFFC /* GoogleSignIn.bundle in Resources */,
 				CE2D707B2542CBE400499913 /* GoogleService-Info.plist in Resources */,
 				8A83351621006CD2007200B0 /* bg.jpg in Resources */,
 				8A8334E521006C01007200B0 /* Assets.xcassets in Resources */,
 				8A5528C3211B324700F7E933 /* LaunchScreen.storyboard in Resources */,
-				CEFDFF1B280529FB00FDCEB5 /* SDKDataResource.bundle in Resources */,
+				CEAB1C882845B7EB00FFAFFC /* SDKDataResource.bundle in Resources */,
 				8A5528C5211B330000F7E933 /* ap_logo.png in Resources */,
 				8A83351821006CD2007200B0 /* MainViewController.xib in Resources */,
 			);
@@ -643,6 +643,8 @@
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.0.0/third-party/grpc-frameworks",
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.1.0/third-party/social-framework",
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.1.0/third-party/grpc-frameworks",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDK/third-party/social-framework",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDK/third-party/grpc-frameworks",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Debug-iphoneos/include/GinSDK",
@@ -718,6 +720,8 @@
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.0.0/third-party/grpc-frameworks",
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.1.0/third-party/social-framework",
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.1.0/third-party/grpc-frameworks",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDK/third-party/social-framework",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDK/third-party/grpc-frameworks",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Debug-iphoneos/include/GinSDK",
@@ -862,6 +866,8 @@
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.0.0/third-party/grpc-frameworks",
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.1.0/third-party/social-framework",
 					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDKv1.1.0/third-party/grpc-frameworks",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDK/third-party/social-framework",
+					"$(PROJECT_DIR)/DemoSDK_AppStore/GinSDK/third-party/grpc-frameworks",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Debug-iphoneos/include/GinSDK",
