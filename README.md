@@ -53,7 +53,7 @@
 <key>GameClientID</key>
 <string>GameClientID</string>
 ```
-- Configure GameSDKSignature into .plist file (default: info.plist)*. IN the <string> tag, key GameSdkSignature will be provided privately via email
+- Configure GameSdkSignature into .plist file (default: info.plist)*. IN the <string> tag, key GameSdkSignature will be provided privately via email
 ```xml
 <key>GameSdkSignature</key>
 <string>GameSDKSignature</string>
