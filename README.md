@@ -53,9 +53,9 @@
 <key>GameClientID</key>
 <string>GameClientID</string>
 ```
-- Configure GameSDKSignature into .plist file (default: info.plist)*. IN the <string> tag, key GameSDKSignature will be provided privately via email
+- Configure GameSDKSignature into .plist file (default: info.plist)*. IN the <string> tag, key GameSdkSignature will be provided privately via email
 ```xml
-<key>GameSDKSignature</key>
+<key>GameSdkSignature</key>
 <string>GameSDKSignature</string>
 ```
 ### Configure GoogleSignIn in your project (default info.plist)
